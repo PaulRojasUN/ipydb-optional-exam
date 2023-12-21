@@ -1,7 +1,8 @@
-Paul Rodrigo Rojas Guerrero - 202127891-3743
+Paul Rodrigo Rojas Guerrero -- 202127891-3743
 
 Para ejecutar, abra una terminal en este directorio y ejecute los siguientes comandos para cada versión específica:
 
+Para el caso de las implementaciones paralelas, puede alterar la cantidad de hilos utilizados, cambiando la constante MAX_THREADS.
 
 VERSIÓN SECUENCIAL
 
@@ -19,7 +20,7 @@ VERSIÓN PTHREADS
 
 VERSIÓN STATIC OPENMP
 
-    gcc fopenmp static_openmp_version.c -o static_openmp_version
+    gcc -fopenmp static_openmp_version.c -o static_openmp_version
 
     ./static_openmp_version
 
